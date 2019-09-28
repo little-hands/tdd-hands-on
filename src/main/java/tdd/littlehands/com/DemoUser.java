@@ -2,7 +2,7 @@ package tdd.littlehands.com;
 
 public class DemoUser {
   private static final int MINIMUM_USERNAME_LENGTH = 10;
-  private static final int MINIMUM_PASSWORD_LENGTH = 8;
+  private static final int MINIMUM_PASSWORD_LENGTH = 9;
 
   private String userName;
   private String password;
