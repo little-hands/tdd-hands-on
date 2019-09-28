@@ -12,10 +12,10 @@ commands:
 jobs:
   - build
   - test:
-    executor: default
-    steps:
-      - checkout
-      - test
+      executor: default
+      steps:
+        - checkout
+        - test
 
 workflows:
   commit:
