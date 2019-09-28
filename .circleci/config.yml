@@ -8,3 +8,10 @@ commands:
     description: "test"
     steps:
       - run: ./gradlew test
+
+jobs:
+  test:
+    executor: default
+    steps:
+      - checkout
+      - test
