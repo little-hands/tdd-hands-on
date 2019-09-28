@@ -1,0 +1,10 @@
+version: 2.1
+executors:
+  default:
+    docker:
+      - image: circleci/ruby:2.5
+commands:
+  test:
+    description: "test"
+    steps:
+      - run: ./gradlew test
