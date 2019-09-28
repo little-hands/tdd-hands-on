@@ -10,8 +10,14 @@ commands:
       - run: ./gradlew test
 
 jobs:
-  test:
+  - build
+  - test:
     executor: default
     steps:
       - checkout
+      - test
+
+workflows:
+  commit:
+    jobs:
       - test
