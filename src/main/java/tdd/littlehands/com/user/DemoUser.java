@@ -1,4 +1,4 @@
-package tdd.littlehands.com;
+package tdd.littlehands.com.user;
 
 public class DemoUser {
   private static final int MINIMUM_USERNAME_LENGTH = 10;

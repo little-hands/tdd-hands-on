@@ -1,0 +1,26 @@
+# 受け入れ基準(AC)
+Feature: ユーザー作成
+  When: ユーザーネーム(10文字以上)、パスワード(8文字以上)を入力すると
+  Then: 入力した値でユーザーオブジェクトが作られる
+
+  When: ユーザーネームに9文字以下を入力すると
+  Then: 例外が投げられる
+
+  When: パスワードにに7文字以下を入力すると
+  Then: 例外が投げられる
+
+
+# FizzBuzz受け入れ条件
+Feature: FizzBuzz計算
+  When: <input>を入力した時
+  Then: <output>
+  Examples:
+    | input | output |
+    |     1 |    "1" |
+    |     2 |    "2" |
+    |     3 | "FIZZ" |
+    |     3 | "FIZZ" |
+
+# Userクラス作成のtodoリスト
+* Userクラス作成
+* 2つのバリデーション

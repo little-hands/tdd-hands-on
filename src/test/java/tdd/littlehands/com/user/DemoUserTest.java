@@ -1,4 +1,4 @@
-package tdd.littlehands.com;
+package tdd.littlehands.com.user;
 
 import org.junit.jupiter.api.Test;
 
