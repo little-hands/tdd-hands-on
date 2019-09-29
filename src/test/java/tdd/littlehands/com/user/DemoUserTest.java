@@ -12,7 +12,7 @@ class DemoUserTest {
   void test_createUser_success() {
     // when: ユーザーネーム(10文字以上)、パスワード(8文字以上)を入力すると
     String userName = "1234567890";
-    String password = "xx";
+    String password = "12345678";
     DemoUser demoUser = new DemoUser(userName, password);
 
     // Then: ユーザーオブジェクトが作られる
