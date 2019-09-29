@@ -1,0 +1,14 @@
+z# FizzBuzz受け入れ条件
+Feature: FizzBuzz計算
+  When: <input>を入力した時
+  Then: <output>
+  Examples:
+    | input | output |
+    |     1 |    "1" |
+    |     2 |    "2" |
+    |     3 | "FIZZ" |
+    |     3 | "FIZZ" |
+
+# Userクラス作成のtodoリスト
+* Userクラス作成
+* 2つのバリデーション
