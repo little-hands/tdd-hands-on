@@ -35,7 +35,7 @@ class DemoUserTest {
 
   @Test
   void test_createUser_fail_passwordLength() {
-    // When: ユーザーネームに9文字以下を入力すると
+    // When: ユーザーネームに7文字以下を入力すると
     String userName = "1234567890";
     String password = "1234567";
 

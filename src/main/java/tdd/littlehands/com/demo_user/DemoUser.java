@@ -8,9 +8,9 @@ public class DemoUser {
   private String password;
 
   public DemoUser(String userName, String password) {
-    if (userName.length() < MINIMUM_USERNAME_LENGTH) {
-      throw new IllegalArgumentException("too short userName.");
-    }
+//    if (userName.length() < MINIMUM_USERNAME_LENGTH) {
+//      throw new IllegalArgumentException("too short userName.");
+//    }
     if (password.length() < MINIMUM_PASSWORD_LENGTH) {
       throw new IllegalArgumentException("too short userName.");
     }
